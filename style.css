@@ -1,0 +1,81 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');*/
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+body {
+  scroll-behavior: smooth;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+h1, p, a, button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+}
+a.home-link {
+  color: red;
+}
+.container {
+  max-width: 1146px;
+  margin: 0 auto;
+}
+.header {
+  padding: 40px 0;
+  margin-bottom: 84px;
+}
+.navigation {}
+.navigation a {
+  font-size: 14px;
+}
+.main {
+  margin-bottom: 100px;
+}
+.mainContent {}
+.mainContent__leftSide {}
+.mainContent__leftSide h1 {
+font-weight: 700;
+font-size: 60px;
+line-height: 120%;
+margin-bottom: 32px;
+}
+.mainContent__leftSide p {
+  color: rgb(136, 136, 136);
+  font-size: 20px;
+  line-height: 140%;
+  letter-spacing: 0%;
+  text-align: left; 
+  margin-bottom: 32px;
+}
+.mainContent__leftSide-btnList {}
+.mainContent__leftSide-btnList button {
+  width: 140px;
+  height: 51px;
+  padding: 16px 10px 16px 10px;
+  border-radius: 56px;
+  border: none;
+  box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.2);
+  background: rgb(242, 88, 34);
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  cursor: pointer;
+  }
+  .mainContent__leftSide-btnList a {
+    color: rgb(170, 170, 170);
+font-family: Inter;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+margin: 0px 48px;
+}
+.footer {
+  margin-bottom: 100px;}
+.logos {}
+
