@@ -13,11 +13,12 @@ img {
   max-width: 100%;
 }
 h1, p, a, button {
+  color: black;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
 a.home-link {
-  color: red;
+  color: rgb(242, 88, 34);
 }
 .container {
   max-width: 1146px;
@@ -27,15 +28,30 @@ a.home-link {
   padding: 40px 0;
   margin-bottom: 84px;
 }
-.navigation {}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.navigation div {
+  display: flex;
+  align-items: center;
+  gap: 37px;
+  width: 577px;
+}
+
 .navigation a {
   font-size: 14px;
 }
 .main {
   margin-bottom: 100px;
 }
-.mainContent {}
-.mainContent__leftSide {}
+.mainContent {
+  display: flex;
+  justify-content: space-between;
+}
+.mainContent__leftSide {
+  max-width: 556px;
+}
 .mainContent__leftSide h1 {
 font-weight: 700;
 font-size: 60px;
@@ -49,6 +65,7 @@ margin-bottom: 32px;
   letter-spacing: 0%;
   text-align: left; 
   margin-bottom: 32px;
+  max-width: 556px;
 }
 .mainContent__leftSide-btnList {}
 .mainContent__leftSide-btnList button {
@@ -77,5 +94,8 @@ margin: 0px 48px;
 }
 .footer {
   margin-bottom: 100px;}
-.logos {}
+.logos {
+  display: flex;
+  justify-content: space-between;
+}
 
